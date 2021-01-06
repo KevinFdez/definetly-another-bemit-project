@@ -1,0 +1,16 @@
+%joined-items {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+%not-selectable {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+* {
+	box-sizing: border-box;
+}

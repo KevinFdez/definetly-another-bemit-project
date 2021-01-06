@@ -1,0 +1,15 @@
+@mixin linkable-button($backgroundColor, $backgroundColorActive, $width) {
+	background: $backgroundColor;
+	color: white;
+	border: none;
+	font-size: 16px;
+	font-weight: 300;
+	width: $width;
+	height: 100%;
+	margin: 0;
+
+	&:hover {
+		background: $backgroundColorActive;
+		cursor: pointer;
+	}
+}
